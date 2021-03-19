@@ -56,7 +56,7 @@ def move():
         targets.append(target)
 
     for target in targets:
-        target.x -= 0.5
+        target.x -= 0.8
 
     if inside(ball):
         speed.y -= 0.25
