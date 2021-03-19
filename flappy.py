@@ -72,7 +72,7 @@ def move():
             return
 
     draw(True)
-    ontimer(move, 50)
+    ontimer(move, 75)
 
 
 setup(420, 420, 370, 0)
